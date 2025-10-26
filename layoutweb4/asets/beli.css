@@ -1,0 +1,159 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Wrapper */
+#wrapper {
+  max-width: 960px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff8f0;
+  border: 1px solid #d2b48c;
+}
+
+/* Header */
+header {
+  position: relative;
+  height: 120px;
+  overflow: hidden;
+}
+
+header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.header-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(101, 67, 33, 0.6); /* coklat transparan */
+  color: #fff8f0;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+/* Navigasi */
+nav {
+  background-color: #d2b48c;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #4b2e1e;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main layout */
+main {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+body {
+  background-color: #fff8f0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.detail-produk {
+  display: flex;
+  gap: 30px;
+  background-color: #fff3e0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.detail-img {
+  width: 300px;
+  border-radius: 8px;
+}
+
+.detail-deskripsi {
+  flex: 1;
+  color: #4b2e1e;
+}
+
+.beli-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #a67c52;
+  color: #fff8f0;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.beli-btn:hover {
+  background-color: #8b5e3c;
+}
+
+
+.detail-produk {
+  display: flex;
+  gap: 30px;
+  background-color: #fff3e0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.detail-img {
+  width: 300px;
+  border-radius: 8px;
+}
+
+.detail-deskripsi {
+  flex: 1;
+  color: #4b2e1e;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d2b48c;
+  padding: 20px;
+  border-top: 2px solid #a67c52;
+  color: #4b2e1e;
+  flex-wrap: wrap;
+}
+
+footer .kolom.layanan ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+footer .kolom {
+  flex: 1;
+  margin: 10px;
+  background-color: #f5e1c8;
+  padding: 15px;
+  border-radius: 8px;
+  min-width: 250px;
+}
