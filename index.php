@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="asets/style.css" type="text/css"/>
 </head>
 
-<body>
+<body> 
   <div id="wrapper">
     <div id="container">
       
@@ -21,7 +21,7 @@
           <div class="produk-baris">
            <div class="produk-item">
              <img src="img/ckhazelnut.jpg" alt="Hazelnut Cookies">
-             <h3>Hazelnut Cookies</h3>
+             <h3>Hazelnut </h3>
               <p>Hazelnut Cookies, kreasi manis dengan sentuhan crispy dari hazelnut panggang dan adonan butter lembut yang meleleh di mulut.</p>
               <a href="beli/beli-hazelnut.php" class="beli-btn">Beli</a>
             </div>
